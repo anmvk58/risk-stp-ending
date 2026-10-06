@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100707">
+  <title>Lễ tổng kết dự án Risk STP | MSB</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main id="presentation" class="presentation" aria-label="Trình chiếu tổng kết dự án Risk STP">
+    <section id="backdrop" class="backdrop" aria-label="Lễ tổng kết dự án Risk STP">
+      <img id="backdrop-image" src="assets/backdrop.png" alt="Backdrop V1 — MSB và Risk STP — Đồng hành khát vọng, bản lĩnh tiên phong. Lễ tổng kết dự án Risk STP." fetchpriority="high">
+    </section>
+
+    <section id="results" class="results" aria-label="Các con số nổi bật" hidden>
+      <header class="slide-header">
+        <span class="header-caption">LỄ TỔNG KẾT DỰ ÁN</span>
+      </header>
+      <div class="results-content">
+        <p class="eyebrow">ĐỒNG HÀNH KHÁT VỌNG · BẢN LĨNH TIÊN PHONG</p>
+        <h1>Những con số <span>ấn tượng</span></h1>
+        <div class="title-rule" aria-hidden="true"><span>✦</span></div>
+        <div class="metrics">
+          <article class="metric" data-step="2" aria-hidden="true">
+            <div class="metric-value">8800</div>
+            <div class="metric-line" aria-hidden="true"></div>
+          </article>
+          <article class="metric" data-step="3" aria-hidden="true">
+            <div class="metric-value">96,1<span class="unit">%</span></div>
+            <div class="metric-line" aria-hidden="true"></div>
+          </article>
+          <article class="metric" data-step="4" aria-hidden="true">
+            <div class="metric-value">15<span class="unit">%</span></div>
+            <div class="metric-line" aria-hidden="true"></div>
+          </article>
+        </div>
+      </div>
+      <footer class="slide-footer"><span>MSB × RISK STP</span><span>HÀ NỘI · 08.10.2026</span></footer>
+    </section>
+  </main>
+
+  <div id="backdrop-picker" class="backdrop-picker" role="group" aria-label="Chọn phiên bản backdrop">
+    <button class="version-button" data-version="1" aria-label="Backdrop V1 — bản gốc" aria-pressed="true" title="V1 — bản gốc">V1</button>
+    <button class="version-button" data-version="2" aria-label="Backdrop V2 — xanh đậm" aria-pressed="false" title="V2 — xanh đậm">V2</button>
+    <button class="version-button" data-version="3" aria-label="Backdrop V3 — đỏ vàng" aria-pressed="false" title="V3 — đỏ vàng">V3</button>
+    <button class="version-button" data-version="4" aria-label="Backdrop V4 — thành phố đỏ" aria-pressed="false" title="V4 — thành phố đỏ">V4</button>
+    <button class="version-button" data-version="5" aria-label="Backdrop V5 — thành phố xanh" aria-pressed="false" title="V5 — thành phố xanh">V5</button>
+    <button class="version-button" data-version="6" aria-label="Backdrop V6 — dải lụa đỏ vàng" aria-pressed="false" title="V6 — dải lụa đỏ vàng">V6</button>
+  </div>
+  <nav class="slide-controls" aria-label="Điều khiển trình chiếu">
+    <button id="previous" class="control-button" aria-label="Quay lại" title="Quay lại (←)" disabled><span aria-hidden="true">←</span></button>
+    <button id="next" class="control-button" aria-label="Tiếp theo" title="Tiếp theo (→)"><span aria-hidden="true">→</span></button>
+    <button id="fullscreen" class="control-button" aria-label="Toàn màn hình" title="Toàn màn hình (F)"><span aria-hidden="true">⛶</span></button>
+  </nav>
+  <p id="announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+</body>
+</html>
